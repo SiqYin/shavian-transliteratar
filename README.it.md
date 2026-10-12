@@ -18,6 +18,10 @@
 
 La stessa pagina si installa come app offline (PWA) su desktop e Android.
 
+## Download
+
+Scarica l'**installer Windows / l'eseguibile portabile** e l'**APK Android** dalle [Releases](https://github.com/SiqYin/shavian-transliteratar/releases). Sono app offline con il lessico CMUdict completo integrato.
+
 ## Funzionalità
 
 - Inglese → shaviano tramite [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b, nelle modalità **General American** e **RP britannico** (non rotico)

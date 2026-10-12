@@ -18,6 +18,10 @@
 
 Dieselbe Seite lässt sich als Offline-App (PWA) auf dem Desktop und unter Android installieren.
 
+## Downloads
+
+**Windows-Installer / portable exe** und **Android-APK** gibt es unter [Releases](https://github.com/SiqYin/shavian-transliteratar/releases). Beide sind Offline-Apps mit dem vollständigen CMUdict-Lexikon.
+
 ## Funktionen
 
 - Englisch → Shaw über [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b, in den Modi **General American** und **britisches RP** (nicht-rhotisch)

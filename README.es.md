@@ -18,6 +18,10 @@
 
 La misma página se instala como aplicación sin conexión (PWA) en ordenador y Android.
 
+## Descargas
+
+Consigue el **instalador de Windows / el ejecutable portable** y el **APK de Android** en [Releases](https://github.com/SiqYin/shavian-transliteratar/releases). Ambos son aplicaciones sin conexión con el léxico CMUdict completo integrado.
+
 ## Funciones
 
 - Inglés → shaviano mediante [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b, en modos **General American** y **RP británico** (no rótico)

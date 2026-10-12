@@ -16,7 +16,7 @@
     <h1><span class="sh">𐑖𐑱𐑝𐑾𐑯</span> <span data-i18n="title">Shavian Transliteratar</span></h1>
     <label class="lang-pick">
       <span data-i18n="langLabel">Language</span>
-      <select id="langSelect" aria-label="Language"></select>
+      <select id="langSelect" data-i18n-aria="langLabel" aria-label="Language"></select>
     </label>
   </div>
   <p class="tagline" data-i18n="tagline">English ⇄ Shavian alphabet · CMUdict-powered, with General American / RP pronunciations, IPA and bidirectional conversion</p>
@@ -39,26 +39,28 @@
     <label><input type="checkbox" id="optNameStart"> <span data-i18n="optNameStart">Treat sentence-initial capitals as names</span></label>
   </section>
 
-  <section class="panel">
-    <div class="panel-head">
-      <label for="input" id="inputLabel" data-i18n="inEn">English input</label>
-      <span class="spacer"></span>
-      <button type="button" id="sampleBtn" class="ghost" data-i18n="sample">Sample</button>
-      <button type="button" id="clearBtn" class="ghost" data-i18n="clear">Clear</button>
-    </div>
-    <textarea id="input" rows="4" spellcheck="false" data-i18n-ph="phEn" placeholder="Type English here…"></textarea>
-  </section>
+  <div class="work-row">
+    <section class="panel">
+      <div class="panel-head">
+        <label for="input" id="inputLabel" data-i18n="inEn">English input</label>
+        <span class="spacer"></span>
+        <button type="button" id="sampleBtn" class="ghost" data-i18n="sample">Sample</button>
+        <button type="button" id="clearBtn" class="ghost" data-i18n="clear">Clear</button>
+      </div>
+      <textarea id="input" rows="4" spellcheck="false" data-i18n-ph="phEn" placeholder="Type English here…"></textarea>
+    </section>
 
-  <section class="panel output-panel">
-    <div class="panel-head">
-      <label id="outputLabel" data-i18n="outSh">Shavian</label>
-      <span class="spacer"></span>
-      <button type="button" id="copyBtn" class="ghost" data-i18n="copy">Copy result</button>
-    </div>
-    <div id="output" class="output sh" aria-live="polite"></div>
-    <div id="ipaLine" class="ipa-line" hidden></div>
-    <div id="warnLine" class="warn-line" hidden></div>
-  </section>
+    <section class="panel output-panel">
+      <div class="panel-head">
+        <label id="outputLabel" data-i18n="outSh">Shavian</label>
+        <span class="spacer"></span>
+        <button type="button" id="copyBtn" class="ghost" data-i18n="copy">Copy result</button>
+      </div>
+      <div id="output" class="output sh" aria-live="polite"></div>
+      <div id="ipaLine" class="ipa-line" hidden></div>
+      <div id="warnLine" class="warn-line" hidden></div>
+    </section>
+  </div>
 
   <section id="detail" class="panel detail" hidden>
     <div id="detailBody"></div>

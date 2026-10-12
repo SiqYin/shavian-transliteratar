@@ -8,7 +8,7 @@
   // The demo text is tool input, so it stays English in every UI locale.
   var SAMPLE_EN = "I met John in New York last Friday. The quick brown fox jumps over 13 lazy dogs! Read this either in General American or in RP English.";
 
-  var state = { dir: "fwd", variantPick: {}, sampleLoaded: false };
+  var state = { dir: "fwd", variantPick: {} };
 
   var $ = function (id) { return document.getElementById(id); };
   var inputEl = $("input"), outputEl = $("output"), ipaEl = $("ipaLine"),
@@ -299,7 +299,6 @@
   $("sampleBtn").addEventListener("click", function () {
     inputEl.value = SAMPLE_EN;
     if (state.dir === "rev") { inputEl.value = S.textToShavian(SAMPLE_EN, { mode: "us" }).shavian; }
-    state.sampleLoaded = true;
     render();
   });
   $("clearBtn").addEventListener("click", function () {

@@ -1,0 +1,72 @@
+{
+  "name": "shavian-transliteratar",
+  "productName": "Shavian Transliteratar",
+  "version": "0.1.0",
+  "description": "Bidirectional English-Shavian alphabet converter with IPA, General American/RP modes and 8 UI languages",
+  "author": "SiqYin",
+  "license": "MIT",
+  "private": true,
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron .",
+    "icons": "node tools/make-icons.js",
+    "dist:win": "electron-builder --win",
+    "dist:android": "echo see .github/workflows/build-android.yml"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "sharp": "^0.33.5"
+  },
+  "build": {
+    "appId": "io.github.siqyin.shavian",
+    "productName": "Shavian Transliteratar",
+    "artifactName": "ShavianTransliteratar-${version}-${os}.${ext}",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "electron-main.js",
+      "index.html",
+      "manifest.webmanifest",
+      "sw.js",
+      "icon.svg",
+      "icon-maskable.svg",
+      "icon-*.png",
+      "web/**",
+      "data/noto-sans-shavian.woff2",
+      "LICENSE"
+    ],
+    "win": {
+      "icon": "icon-256.png",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Shavian Transliteratar"
+    },
+    "portable": {
+      "artifactName": "ShavianTransliteratar-${version}-portable.${ext}"
+    }
+  },
+  "allowScripts": {
+    "electron@33.4.11": true,
+    "sharp@0.33.5": true
+  }
+}

@@ -18,6 +18,10 @@
 
 同じページをオフラインアプリ（PWA）として PC や Android にインストールできます。
 
+## ダウンロード
+
+[Releases](https://github.com/SiqYin/shavian-transliteratar/releases) から **Windows インストーラー / ポータブル版** と **Android APK** を取得できます。いずれも CMUdict 辞書を内蔵したオフラインアプリです。
+
 ## 機能
 
 - [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b による 英語 → ショー文字変換。**米国 General American** と**英国 RP**（非 R 音化）の 2 モード

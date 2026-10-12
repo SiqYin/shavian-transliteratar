@@ -141,8 +141,11 @@
 
   function isStandaloneApp() {
     if (typeof window === "undefined" || !window.matchMedia) { return false; }
+    // installed PWA (display-mode) or the packaged Windows / Android shell,
+    // which loads the page over file://
     return window.matchMedia("(display-mode: standalone)").matches ||
-           window.navigator && window.navigator.standalone === true;
+           window.navigator && window.navigator.standalone === true ||
+           typeof location !== "undefined" && location.protocol === "file:";
   }
 
   /* mode: "web" forces geo-IP, "app" checks the system language first; when

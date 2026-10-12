@@ -18,6 +18,10 @@
 
 同一页面可作为离线应用（PWA）安装到电脑和安卓设备。
 
+## 下载
+
+前往 [Releases](https://github.com/SiqYin/shavian-transliteratar/releases) 获取 **Windows 安装包 / 便携版** 与 **安卓 APK**，均为内置完整 CMUdict 词典的离线应用。
+
 ## 功能
 
 - 基于 [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b 的 英语 → 萧伯纳字母 转写，支持**美式通用发音**与**英式 RP**（不卷舌）两种模式

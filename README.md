@@ -18,6 +18,10 @@
 
 The same page installs as an offline app (PWA) on desktop and Android.
 
+## Downloads
+
+Grab the **Windows installer / portable exe** and the **Android APK** from [Releases](https://github.com/SiqYin/shavian-transliteratar/releases). Both are offline apps bundling the full CMUdict lexicon.
+
 ## Features
 
 - English → Shavian via [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b, in **General American** and **British RP** (non-rhotic) modes

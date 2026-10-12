@@ -18,6 +18,10 @@
 
 La même page s'installe comme application hors ligne (PWA) sur ordinateur et Android.
 
+## Téléchargements
+
+Récupérez l'**installateur Windows / l'exécutable portable** et l'**APK Android** depuis les [Releases](https://github.com/SiqYin/shavian-transliteratar/releases). Ce sont des applications hors ligne avec le lexique CMUdict intégral.
+
 ## Fonctionnalités
 
 - Anglais → shavien via [CMUdict](https://github.com/cmusphinx/cmudict) 0.7b, en modes **General American** et **RP britannique** (non rhotique)
