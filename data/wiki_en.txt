@@ -1,0 +1,449 @@
+{{short description|Phonemic, featural alphabet for English}}
+{{redirect|Shavian}}
+{{Use dmy dates|date=April 2022}}
+{{Infobox writing system
+| name        = Shavian alphabet
+| altname     = {{lang|en-Shaw|𐑖𐑱𐑝𐑾𐑯 𐑨𐑤𐑓𐑩𐑚𐑧𐑑}}
+| sample      = Shavian in Shavian.svg
+| imagesize   = 200px
+| type        = Alphabet
+| time        = 1960{{endash}}present
+| languages   = [[English language|English]], [[Esperanto]]
+| creator     = [[Ronald Kingsley Read]]
+| fam1        = ([[Constructed writing system]])
+| children    = [[Quikscript]], [[#Shavian in Esperanto (Ŝava alfabeto)|Ŝava]]
+| unicode     = [https://www.unicode.org/charts/PDF/U10450.pdf U+10450–U+1047F]
+| iso15924    = Shaw
+}}
+{{Contains special characters|Shavian}}
+
+[[File:Shaw alphabet paperback.jpg|right|thumb|200px|''The Shaw Alphabet Edition of [[Androcles and the Lion (play)|Androcles and the Lion]]'', 1962. Paperback cover design by Germano Facetti]]
+
+The '''Shavian alphabet''' ({{IPAc-en|ˈ|ʃ|eɪ|v|i|ə|n}} {{respell|SHAY|vee|ən}};<ref>{{cite book |first=John C. |last=Wells |authorlink=John C. Wells |year=2000 |title=Longman Pronunciation Dictionary |place=Harlow, England |publisher=Pearson Education Ltd. |isbn= |page= }}</ref> also known as the '''Shaw alphabet''') is a [[Constructed writing system|constructed]] [[alphabet]] conceived as a way to provide simple, [[phonemic orthography]] for the [[English language]] to replace the inefficiencies and difficulties of [[English orthography|conventional spelling]] using the [[English alphabet|Latin alphabet]]. It was posthumously funded by and named after the playwright [[George Bernard Shaw]] and designed by [[Ronald Kingsley Read]], a professional [[signwriter]] and [[Lettering|letterer]].
+
+Shaw set three main criteria for the new alphabet:
+# at least 40 letters (it ended up with 48, including [[Ligature (writing)|ligatures]]);
+# as [[Phonemic orthography|phonetic]] as possible (that is, letters should have a [[1:1 correspondence]] to phonemes);
+# distinct from the [[Latin script|Latin alphabet]] (to avoid the impression that the new spellings were simply misspellings).
+
+== Letters ==
+The Shavian alphabet consists of three types of letters: ''tall'' (with an ascender), ''deep'' (with a descender) and ''short''.<ref name="Kingsley Read cover">{{cite book| first= Kingsley |last= Read| title= Shaw-Script: the Journal in a New English Alphabet| chapter= Cover letter| year= 1963| page= 1| publisher= }}</ref> All [[vowel]]s but the consonant&ndash;vowel ligature ''yew'' are short. Among consonants, the short letters are [[Liquid consonant|liquids]] (r, l) and [[nasal stop|nasals]] (m, n); these, the [[Semivowel|semivowels]] (y, w) and the [[Heng (letter)|heng]] letters (h, ng) are derived from each other through rotation or reflection. Tall letters are voiceless [[consonant]]s, excepting Yea {{lang|en-Shaw|𐑘}} and Hung {{lang|en-Shaw|𐑙}}. A tall letter rotated 180°, with the tall part now extending below the baseline, becomes a deep letter, representing the corresponding [[Voice (phonetics)|voiced]] consonants (except Haha {{lang|en-Shaw|𐑣}}). These rotation pairs, with the exception of the ''heng'' consonants, are the same letters that are paired in [[Pitman shorthand]]. [[Affricate]]s, several [[diphthong]]s, and [[rhotic vowel]]s are ligatures. The alphabet is therefore to some extent [[featural]].
+
+{| style="text-align: center"
+!
+! colspan="9" | Tall and deep letters:
+|-
+! Shavian letter
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Peep.svg|24px]] [[File:Shavian Bib.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Tot.svg|24px]] [[File:Shavian Dead.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Kick.svg|24px]] [[File:Shavian Gag.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Fee.svg|24px]] [[File:Shavian Vow.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Thigh.svg|24px]] [[File:Shavian They.svg|24px]]
+|- lang="en-Shaw"
+! lang="en-Latn" | Unicode text
+| 𐑐 𐑚
+|
+|𐑑 𐑛
+|
+| 𐑒 𐑜
+|
+| 𐑓 𐑝
+|
+| 𐑔 𐑞
+|-
+! [[Help:IPA/English|Pronunciation]]<br /><small>(may vary, see below)</small>
+| {{IPAc-en|p}} {{IPAc-en|b}}
+|
+|{{IPAc-en|t}} {{IPAc-en|d}}
+|
+| {{IPAc-en|k}} {{IPAc-en|ɡ}}
+|
+| {{IPAc-en|f}} {{IPAc-en|v}}
+|
+| {{IPAc-en|θ}} {{IPAc-en|ð}}
+|-
+! Name/example
+| <small>'''p'''eep '''b'''ib</small>
+|
+|<small>'''t'''ot '''d'''ead</small>
+|
+| <small>'''k'''ick '''g'''ag</small>
+|
+| <small>'''f'''ee '''v'''ow</small>
+|
+| <small>'''th'''igh '''th'''ey</small>
+|-
+| &nbsp;
+|-
+! rowspan="19" | &nbsp;
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian So.svg|24px]] [[File:Shavian Zoo.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Sure.svg|24px]] [[File:Shavian Measure.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Church.svg|24px]] [[File:Shavian Judge.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Yea.svg|24px]] [[File:Shavian Woe.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Hung.svg|24px]] [[File:Shavian Ha-ha.svg|24px]]
+|- lang="en-Shaw"
+| 𐑕 𐑟
+|
+| 𐑖 𐑠
+|
+| 𐑗 𐑡
+|
+| 𐑘 𐑢
+|
+| 𐑙 𐑣
+|-
+| {{IPAc-en|s}} {{IPAc-en|z}}
+|
+| {{IPAc-en|ʃ}} {{IPAc-en|ʒ}}
+|
+| {{IPAc-en|tʃ}} {{IPAc-en|dʒ}}
+|
+| {{IPAc-en|j}} {{IPAc-en|w}}
+|
+| {{IPAc-en|ŋ}} {{IPAc-en|h}}
+|-
+| <small>'''s'''o '''z'''oo</small>
+|
+| <small>'''s'''ure mea'''s'''ure</small>
+|
+| <small>'''ch'''urch '''j'''udge</small>
+|
+| <small>'''y'''ea '''w'''oe</small>
+|
+| <small>hu'''ng h'''a-ha</small>
+|-
+! colspan="9" |
+----Short letters:
+|-
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Loll.svg|24px]] [[File:Shavian Roar.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Mime.svg|24px]] [[File:Shavian Nun.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian If.svg|24px]] [[File:Shavian Eat.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Egg.svg|24px]] [[File:Shavian Age.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Ash.svg|24px]] [[File:Shavian Ice.svg|24px]]
+|- lang="en-Shaw"
+| 𐑤 𐑮
+|
+| 𐑥 𐑯
+|
+| 𐑦 𐑰
+|
+| 𐑧 𐑱
+|
+| 𐑨 𐑲
+|-
+| {{IPAc-en|l}} {{IPAc-en|ɹ}}
+|
+| {{IPAc-en|m}} {{IPAc-en|n}}
+|
+| {{IPAc-en|ɪ}} {{IPAc-en|i:}}
+|
+| {{IPAc-en|ɛ}} {{IPAc-en|eɪ}}
+|
+| {{IPAc-en|æ}} {{IPAc-en|aɪ}}
+|-
+| <small>'''l'''oll '''r'''oar</small>
+|
+| <small>'''m'''ime '''n'''un</small>
+|
+| <small>'''i'''f '''ea'''t</small>
+|
+| <small>'''e'''gg '''a'''ge</small>
+|
+| <small>'''a'''sh '''i'''ce</small>
+|-
+| &nbsp;
+|-
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Ado.svg|24px]] [[File:Shavian Up.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian On.svg|24px]] [[File:Shavian Oak.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Wool.svg|24px]] [[File:Shavian Ooze.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Out.svg|24px]] [[File:Shavian Oil.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Ah.svg|24px]] [[File:Shavian Awe.svg|24px]]
+|- lang="en-Shaw"
+| 𐑩 𐑳
+|
+| 𐑪 𐑴
+|
+| 𐑫 𐑵
+|
+| 𐑬 𐑶
+|
+| 𐑭 𐑷
+|-
+| {{IPAc-en|ə}} {{IPAc-en|ʌ}}
+|
+| {{IPAc-en|ɒ}} {{IPAc-en|oʊ}}
+|
+| {{IPAc-en|ʊ}} {{IPAc-en|uː}}
+|
+| {{IPAc-en|aʊ}} {{IPAc-en|ɔɪ}}
+|
+| {{IPAc-en|ɑ:}} {{IPAc-en|ɔ:}}
+|-
+| <small>'''a'''do '''u'''p</small>
+|
+| <small>'''o'''n '''oa'''k</small>
+|
+| <small>w'''oo'''l '''oo'''ze</small>
+|
+| <small>'''ou'''t '''oi'''l</small>
+|
+| <small>'''a'''h '''aw'''e</small>
+|-
+! colspan="9" |
+----Ligatures:
+|-
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Are.svg|24px]] [[File:Shavian Or.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Air.svg|24px]] [[File:Shavian Err.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Array.svg|24px]] [[File:Shavian Ear.svg|24px]]
+|
+| style="white-space: nowrap;" class=skin-invert | [[File:Shavian Ian.svg|24px]] [[File:Shavian Yew.svg|24px]]
+|- lang="en-Shaw"
+|
+|𐑸 𐑹
+|
+|𐑺 𐑻
+|
+|𐑼 𐑽
+|
+|𐑾 𐑿
+|-
+|
+|{{IPAc-en|ɑːr}} {{IPAc-en|ɔːr}}
+|
+|{{IPAc-en|ɛər}} {{IPAc-en|ɜːr}}
+|
+|{{IPAc-en|ər}} {{IPAc-en|ɪər}}
+|
+|{{IPAc-en|i|ə}} {{IPAc-en|juː}}
+|-
+|
+|<small>'''ar'''e '''or'''</small>
+|
+|<small>'''air err'''</small>
+|
+|<small>'''arr'''ay '''ear'''</small>
+|
+|<small>'''Ia'''n '''yew'''</small>
+|}
+
+There are no separate uppercase or lowercase letters as in the Latin script; instead of using capitalization to mark [[proper name|proper nouns]], a "[[interpunct|namer-dot]]" ('''·''') is placed before a name. Sentences are typically not started with a namer-dot, unless it is otherwise called for. All other punctuation and word spacing is similar to conventional orthography.<ref name="Kingsley Read cover"/>
+
+Each character in the Shavian alphabet requires only a single stroke to be written on paper. The writing utensil needs to be lifted up only once when writing each character, thus enabling faster overall writing than Latin script.
+
+Spelling in ''Androcles'' follows the phonemic distinctions of [[Received Pronunciation]] except for explicitly indicating [[R-colored vowel|vocalic]] "r" with the above ligatures. Most dialectal variations of English pronunciation can be regularly produced from this spelling, but those who do not make certain distinctions, particularly in the vowels, find it difficult to produce the canonical spellings spontaneously. For instance, most North American dialects merge {{lang|en-Shaw|𐑭}} {{IPA|/ɑː/}} and {{lang|en-Shaw|𐑪}} {{IPA|/ɒ/}} (the [[father–bother merger]]), though standard English orthography is a guide.
+
+There is no ability to indicate [[word stress]], so ''billow'' {{IPA|/ˈbɪloʊ/}} and ''below'' {{IPA|/bɪˈloʊ/}} are both spelled {{lang|en-Shaw|𐑚𐑦𐑤𐑴}}, and ''diploid'' {{IPA|/ˈdɪplɔɪd/}} and ''deployed'' {{IPA|/dɪˈplɔɪd/}} are both spelled {{lang|en-Shaw|𐑛𐑦𐑐𐑤𐑶𐑛}}.<ref>{{Cite web |last=Wakamatsu |first=Haruki |title=Dang It, Shavian! |url=https://shavian.neocities.org/dangit |access-date=2025-03-31 |website=shavian.neocities.org}}{{self-published source|date=March 2025}}</ref> However, in most cases the reduction of unstressed vowels is sufficient to distinguish word pairs that are distinguished only by stress in spoken discourse. For instance, the noun ''convict'' {{IPA|/ˈkɒnvɪkt/}} and the verb ''convict'' {{IPA|/kənˈvɪkt/}} can be spelled {{lang|en-Shaw|𐑒𐑪𐑯𐑝𐑦𐑒𐑑}} ''ˈkɒnvɪkt'' and {{lang|en-Shaw|𐑒𐑩𐑯𐑝𐑦𐑒𐑑}} ''kənvɪkt'', respectively.
+
+Additionally, five common words are abbreviated as single letters. The words '''''th'''e'' ({{lang|en-Shaw|𐑞}}), ''o'''f''''' ({{lang|en-Shaw|𐑝}}), ''a'''n'''d'' ({{lang|en-Shaw|𐑯}}), '''''t'''o'' ({{lang|en-Shaw|𐑑}}), and '''''f'''or'' ({{lang|en-Shaw|𐑓}}) are written with the single letters indicated.
+
+== History ==
+[[Image:Androcles and the Lion Shaw Alphabet Edition.png|right|thumb|200px|Libraries were furnished with free hardcover copies of ''[[Androcles and the Lion (play)|Androcles and the Lion]]: Shaw Alphabet Edition'', 1962. Cover design by Germano Facetti]]
+
+[[George Bernard Shaw]], the writer, critic and playwright, was a vocal critic of English spelling because it often deviates from the [[alphabetic principle]]. Shaw had served from 1926 to 1939 on the [[BBC]]'s [[BBC Advisory Committee on Spoken English|Advisory Committee on Spoken English]], which included several exponents of phonetic writing. He also knew [[Henry Sweet]], creator of [[Current Shorthand]] (and a prototype for the character of [[Pygmalion (play)|Henry Higgins]]), although Shaw himself for years wrote his literary works in [[Pitman shorthand]]. However, he found its limitations frustrating as well and realized that it was not a suitable replacement for traditional orthography, making the production of printed material difficult and impossible to type. Shaw desired and advocated a phonetic [[spelling reform]], and this called for a new alphabet.<ref>{{Cite book|url=https://archive.org/details/in.ernet.dli.2015.54583/page/n9/mode/2up|title=The Miraculous Birth of Language|last=Wilson|first=Richard Albert|publisher=JM Dent and Sons Ltd.|year=1941|isbn=|location=London, England|pages=ix-xxxvii}}</ref>
+
+All of his interest in spelling and alphabet reform was made clear in Shaw's will of June 1950, in which provision was made for (Isaac) [[James Pitman]], with a [[grant in aid]] from the Public Trustee, to establish a Shaw Alphabet. Following Shaw's death in November 1950, and after some legal dispute, the Trustee announced a worldwide competition to design such an alphabet, with the aim of producing a system that would be an economical way of writing and of printing the English language. A contest for the design of the new alphabet was won by four people, including [[Ronald Kingsley Read]] who had corresponded extensively with Shaw for several years regarding such an alphabet. Read was then appointed to amalgamate the four designs to produce the new alphabet.<ref>{{Cite book|url=https://archive.org/details/AndroclesAndTheLion_ShawAlphabetEdition|title=The Shaw Alphabet Edition of Androcles and the Lion|last=Shaw|first=Bernard|publisher=Penguin Books Ltd.|year=1962|isbn=|location=Harmondsworth, Middlesex, England|pages=9–11}}</ref>
+
+Due to the contestation of Shaw's will, the trust charged with developing the new alphabet could afford to publish only one book: a version of Shaw's play ''[[Androcles and the Lion (play)|Androcles and the Lion]]'', in a bi-alphabetic edition with both conventional and Shavian spellings (1962 Penguin Books, London). Copies were sent to major libraries in English-speaking countries.
+
+In 1963, [[Imperial Typewriter Company]] produced the world's first portable typewriter "carrying the full Shavian alphabet, figures and punctuation marks plus one normal alphabet with which to address envelopes, etc."<ref>{{cite journal |title=World's First Shavian Typewriter |journal=Imperial News |date=Winter 1963–1964 |volume=20 |issue=2 |page=7}}</ref><ref>{{cite web |title=Object No. H9004 'Imperial' typewriter and accessories |url=https://collection.powerhouse.com.au/object/254367 |website=Powerhouse Collection |access-date=24 September 2026}}</ref>
+
+== Other print literature ==
+Between 1963 and 1965, 8 issues of the journal, ''Shaw-script'', were published by [[Ronald Kingsley Read|Read]] in [[Worcester, England|Worcester]], U.K. The journal used Shaw's Alphabet, and much of the content was submitted by Shaw enthusiasts. In more recent years, there have been several published works of classical literature transliterated into Shavian.
+
+The first, released in 2012, was the works of [[Edgar Allan Poe]] entitled ''Poe Meets Shaw: The Shaw Alphabet Edition of Edgar Allan Poe'', by Tim Browne. This book was published via Shaw Alphabet Books and had two editions in its original release. One, like ''Androcles and the Lion'', had Shavian side-by-side with the Latin equivalent and the other was a Shavian-only edition.
+
+The second, released in 2013, was an edition of ''[[Alice's Adventures in Wonderland]]'', transcribed into Shavian by Thomas Thurman.<ref name="Shaw Alice">{{cite book| first= Lewis |last= Carroll| authorlink= Lewis Carroll| title= Alice's Adventures in Wonderland: An edition printed in the Shaw alphabet|date= September 2013| place= [[Westport, County Mayo|Cathair na Mart]]| publisher= Evertype |isbn= 978-1-78201-036-4}}</ref> This was published as a Shaw-only edition with no side-by-side Latin equivalent. The Shavian fonts were designed by Michael Everson.
+
+In 2019, a print version of ''[[Pride and Prejudice]]'' was published in Shaw-only form by the website Shavian.info.<ref>{{Cite book |last=Austen |first=Jane |title=Pride and Prejudice |publisher=Shavian.info |year=2019 |edition=Shavian Alphabet |isbn=9780648570509}}</ref> 
+
+== Variants ==
+=== Quikscript ===
+{{MAIN|Quikscript}}
+
+Some years after the initial publication of the Shaw alphabet, [[Ronald Kingsley Read|Read]] expanded it to create [[Quikscript]], also known as the Read Alphabet or the Second Shaw Alphabet. Quikscript is intended to be more useful for handwriting, and to that end is more cursive and uses more ligatures. It is also intended to be closer to [[shorthand]], with a "senior Quikscript" mode providing many more shortenings. Some letter forms are roughly the same in both alphabets, though the rotation symmetry of tall–deep pairs is sacrificed for connected handwriting. See the separate article for more details.
+
+=== Shavian in Esperanto (Ŝava alfabeto) ===
+[[File:La Sxava Alfabeto.svg|thumb|450x450px|The Shavian alphabet adapted to write Esperanto: alphabet and ligatures]]
+An adaptation of Shavian to another language, [[Esperanto]], was developed by John Wesley Starling; though not widely used, at least one booklet has been published with transliterated sample texts.<ref>{{cite web| url= http://esperanto.us/sxava_alfabeto/ | title= La Ŝava Alfabeto | first=  Ĝan Ŭesli |last= Starling |language= Esperanto |trans-title= The Shavian Alphabet| website= esperanto.us | publisher= | date= | access-date= May 18, 2022}}</ref> As that language is already spelled phonemically, direct conversion between Latin and Shavian letters can be performed, though several ligatures are added for the common combinations of vowels with ''n'' and ''s'' and some common short words. Vowels use the letters of the orthographically equivalent short vowels in English (i.e. ''ă ĕ ĭ ŏ ŭ''), except that ''o'' and ''u'' are reversed, as are ''j'' and ''w''. The ''oo''-vowel letters are reassigned to ''m'' and ''n'', and the unneeded letters for ''th'' and ''ng'' are assigned to ''c'' and ''ĥ''.
+
+Pronunciations that differ from their English values are marked '''bold'''.
+
+{| style="text-align: center"
+! Ŝava letter 
+| 𐑨
+| 𐑚
+| 𐑔
+| 𐑗
+| 𐑛
+| 𐑧
+| 𐑓
+| 𐑜
+| 𐑡
+| 𐑣
+| 𐑙
+| 𐑦
+| 𐑢
+| 𐑠
+|-
+! Pronunciation
+| '''{{IPA|[a]}}'''
+| {{IPA|[b]}}
+| '''{{IPA|[ts]}}'''
+| {{IPA|[tʃ]}}
+| {{IPA|[d]}}
+| '''{{IPA|[e]}}'''
+| {{IPA|[f]}}
+| {{IPA|[ɡ]}}
+| {{IPA|[dʒ]}}
+| {{IPA|[h]}}
+| '''{{IPA|[x]}}'''
+| '''{{IPA|[i]}}'''
+| '''{{IPA|[j]}}'''
+| {{IPA|[ʒ]}}
+|-
+! rowspan="10" style="vertical-align:top"| Conventional orthography
+| a
+| b
+| c
+| ĉ
+| d
+| e
+| f
+| g
+| ĝ
+| h
+| ĥ
+| i
+| j
+| ĵ
+|-
+| &nbsp;
+|- lang="eo-Shaw"
+| 𐑒
+| 𐑤
+| 𐑫
+| 𐑵
+| 𐑩
+| 𐑐
+| 𐑮
+| 𐑕
+| 𐑖
+| 𐑑
+| 𐑪
+| 𐑘
+| 𐑝
+| 𐑟
+|-
+| {{IPA|[k]}}
+| {{IPA|[l]}}
+| '''{{IPA|[m]}}'''
+| '''{{IPA|[n]}}'''
+| '''{{IPA|[o]}}'''
+| {{IPA|[p]}}
+| {{IPA|[r]}}
+| {{IPA|[s]}}
+| {{IPA|[ʃ]}}
+| {{IPA|[t]}}
+| '''{{IPA|[u]}}'''
+| '''{{IPA|[w]}}'''
+| {{IPA|[v]}}
+| {{IPA|[z]}}
+|-
+| k
+| l
+| m
+| n
+| o
+| p
+| r
+| s
+| ŝ
+| t
+| u
+| ŭ
+| v
+| z
+|-
+! colspan="14" | 
+----Short words
+|-
+| [[Image:shavian-la.png|class=skin-invert]]
+| [[Image:shavian-kaj.png|class=skin-invert]]
+| [[Image:shavian-au.png|class=skin-invert]]
+|-
+| la || kaj || aŭ 
+|}
+
+== Unicode ==
+Shavian was added to the [[Unicode]] Standard in April 2003 with the release of version 4.0. Esperanto ligatures are not supported. 
+
+=== Block ===
+{{Main|Shavian (Unicode block)}}
+
+The Unicode block for Shavian is U+10450–U+1047F and is in Plane 1 (the Supplementary Multilingual Plane).
+
+{{Unicode chart Shavian}}
+
+=== Fonts ===
+While the Shavian alphabet was added to Unicode 4.0 in 2003, Unicode Shavian fonts are still quite rare. Although a brief list of fonts with known Shavian coverage can be found on [https://www.shavian.info/shavian_fonts/ https://shavian.info]. Before it was standardized, fonts were made that include Shavian letters in the places of Roman letters, and/or in an agreed-upon location in the Unicode private use area, allocated from the [[ConScript Unicode Registry]] and now superseded by the official Unicode standard.
+
+== See also ==
+* [[Quikscript]]
+* [[Esperanto]]
+* [[Pitman shorthand]]
+* [[Gregg shorthand]]
+* [[Deseret alphabet]]
+* [[Unifon|Unifon alphabet]]
+* [[English-language spelling reform]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+{{refbegin|2}}
+* [https://www.shavian.info/ Shavian.info]
+* [https://www.orcachuckle.com/helloshavian/ Hello, Shavian!] – an introductory course
+* [http://www.omniglot.com/writing/shavian.htm Omniglot.com article on Shavian]
+* [https://web.archive.org/web/20041010105728/http://www.shawalphabet.com/index1.html Revised Shaw Alphabet, history, etc.]
+* [http://shavian.weebly.com/ Shaw Alphabet enthusiast website & repository]
+* [http://www.alanwood.net/unicode/shavian.html Browser test page for Unicode Shavian]
+* [http://www.evertype.com/standards/csur/shavian.html ConScript Unicode Registry], describes unofficial assignment of Shavian letters in Unicode private use area (Since withdrawn in favour of the official encoding)
+* [http://search.cpan.org/~marnanel/Lingua-EN-Alphabet-Shaw-0.03/lib/Lingua/EN/Alphabet/Shaw.pm Lingua-EN-Alphabet-Shaw], a [[Perl]] module to transliterate
+* [http://upodn.com/phon.php Turn your text into fənɛ́tɪks here] serves a Latin-to-Shavian script transcriber for English.
+* The Shaw Alphabet Edition of [https://archive.org/details/AndroclesAndTheLion_ShawAlphabetEdition/page/n11/mode/2up Androcles and the Lion] from George Bernard Shaw, published 1962 together with the publication of the Shaw Alphabet
+* [https://www.amazon.com/Poe-Meets-Shaw-Alphabet-Edition/dp/0991819306 ''Poe Meets Shaw: The Shaw Alphabet Edition of Edgar Allan Poe'']
+* [http://www.evertype.com/books/alice-en-Shaw.html ''Alice's Adventures in Wonderland: An Edition Printed in the Shaw Alphabet'']
+{{refend}}
+
+{{list of writing systems}}
+{{George Bernard Shaw}}
+{{Authority control}}
+
+{{DEFAULTSORT:Shavian Alphabet}}
+[[Category:Shavian alphabet| ]]
+[[Category:Phonetic alphabets]]
+[[Category:Auxiliary and educational artificial scripts]]
+[[Category:Writing systems introduced in the 1960s]]
+[[Category:1960 introductions]]
+[[Category:George Bernard Shaw]]
+[[Category:English orthography]]
+[[Category:Esperanto orthography]]

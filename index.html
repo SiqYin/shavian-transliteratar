@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shavian Transliteratar</title>
+<meta name="description" content="Bidirectional English ↔ Shavian alphabet converter with General American / RP pronunciations and IPA, powered by CMUdict.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%238a5a28'/%3E%3Ctext x='32' y='44' font-size='38' text-anchor='middle' fill='white' font-family='serif'%3E%F0%90%91%96%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#8a5a28">
+<link rel="stylesheet" href="web/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="title-row">
+    <h1><span class="sh">𐑖𐑱𐑝𐑾𐑯</span> <span data-i18n="title">Shavian Transliteratar</span></h1>
+    <label class="lang-pick">
+      <span data-i18n="langLabel">Language</span>
+      <select id="langSelect" aria-label="Language"></select>
+    </label>
+  </div>
+  <p class="tagline" data-i18n="tagline">English ⇄ Shavian alphabet · CMUdict-powered, with General American / RP pronunciations, IPA and bidirectional conversion</p>
+</header>
+
+<main>
+  <div class="toolbar" role="tablist" aria-label="direction">
+    <button type="button" class="dir-btn is-active" data-dir="fwd" role="tab" data-i18n="dirFwd">English → Shavian</button>
+    <button type="button" class="dir-btn" data-dir="rev" role="tab" data-i18n="dirRev">Shavian → English</button>
+  </div>
+
+  <section class="opts" id="optsFwd">
+    <span class="opt-group" role="radiogroup" data-i18n-aria="accent" aria-label="Accent">
+      <span class="opt-caption" data-i18n="accent">Accent</span>
+      <label><input type="radio" name="mode" value="us" checked> <span data-i18n="modeUs">General American (rhotic)</span></label>
+      <label><input type="radio" name="mode" value="uk"> <span data-i18n="modeUk">British RP (non-rhotic)</span></label>
+    </span>
+    <label><input type="checkbox" id="optAbbrev"> <span data-i18n="optAbbrev">Abbreviations (the/to/of/and/for)</span></label>
+    <label><input type="checkbox" id="optNamer" checked> <span data-i18n="optNamer">Namer dot for proper nouns</span></label>
+    <label><input type="checkbox" id="optNameStart"> <span data-i18n="optNameStart">Treat sentence-initial capitals as names</span></label>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <label for="input" id="inputLabel" data-i18n="inEn">English input</label>
+      <span class="spacer"></span>
+      <button type="button" id="sampleBtn" class="ghost" data-i18n="sample">Sample</button>
+      <button type="button" id="clearBtn" class="ghost" data-i18n="clear">Clear</button>
+    </div>
+    <textarea id="input" rows="4" spellcheck="false" data-i18n-ph="phEn" placeholder="Type English here…"></textarea>
+  </section>
+
+  <section class="panel output-panel">
+    <div class="panel-head">
+      <label id="outputLabel" data-i18n="outSh">Shavian</label>
+      <span class="spacer"></span>
+      <button type="button" id="copyBtn" class="ghost" data-i18n="copy">Copy result</button>
+    </div>
+    <div id="output" class="output sh" aria-live="polite"></div>
+    <div id="ipaLine" class="ipa-line" hidden></div>
+    <div id="warnLine" class="warn-line" hidden></div>
+  </section>
+
+  <section id="detail" class="panel detail" hidden>
+    <div id="detailBody"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><label data-i18n="chartTitle">Alphabet (Unicode U+10450–U+1047F)</label></div>
+    <div id="chart"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span id="stats"></span>
+  <span data-i18n="footerData">Data: CMU Pronouncing Dictionary 0.7b · Font: Noto Sans Shavian (SIL OFL)</span>
+</footer>
+
+<script src="web/i18n.js"></script>
+<script src="web/lang-detect.js"></script>
+<script src="web/tables.js"></script>
+<script src="web/data.js"></script>
+<script src="web/engine.js"></script>
+<script src="web/app.js"></script>
+</body>
+</html>
