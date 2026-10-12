@@ -19,6 +19,7 @@ android {
             def ksB64 = System.getenv("ANDROID_KEYSTORE_B64")
             if (ksB64) {
                 def ksFile = new File(buildDir, "release.keystore")
+                ksFile.parentFile.mkdirs()
                 ksFile.bytes = ksB64.decodeBase64()
                 storeFile ksFile
                 storePassword System.getenv("ANDROID_KEYSTORE_PASSWORD")

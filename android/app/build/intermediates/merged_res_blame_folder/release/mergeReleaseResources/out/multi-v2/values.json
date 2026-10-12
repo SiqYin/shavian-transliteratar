@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.github.siqyin.shavian.app-mergeReleaseResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\29736\\AppData\\Local\\Temp\\shavian-repo\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "59",
+                        "endOffsets": "112"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "59",
+                        "endOffsets": "110"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\29736\\AppData\\Local\\Temp\\shavian-repo\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "445"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "115",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "497"
+                    }
+                }
+            ]
+        }
+    ]
+}

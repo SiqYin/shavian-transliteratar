@@ -1,0 +1,7 @@
+io.github.siqyin.shavian.app-pngs-0 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\build\generated\res\pngs\release
+io.github.siqyin.shavian.app-resValues-1 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\build\generated\res\resValues\release
+io.github.siqyin.shavian.app-packageReleaseResources-2 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+io.github.siqyin.shavian.app-packageReleaseResources-3 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+io.github.siqyin.shavian.app-release-4 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\build\intermediates\merged_res\release\mergeReleaseResources
+io.github.siqyin.shavian.app-main-5 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\src\main\res
+io.github.siqyin.shavian.app-release-6 C:\Users\29736\AppData\Local\Temp\shavian-repo\android\app\src\release\res

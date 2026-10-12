@@ -1,0 +1,3 @@
+io.github.siqyin.shavian:style/AppTheme = 0x7f030000
+io.github.siqyin.shavian:string/app_name = 0x7f020000
+io.github.siqyin.shavian:mipmap/ic_launcher = 0x7f010000
