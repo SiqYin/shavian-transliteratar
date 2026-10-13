@@ -51,6 +51,7 @@
       langLabel: "Language",
       warnOov: "Not in CMUdict \u2014 guessed with letter-to-sound rules: ",
       warnSeg: "No whole-word match \u2014 segmented / respelled: ",
+      warnLimit: "Over the 2000-word limit \u2014 only the first 2000 words are converted.",
       chartTitle: "Alphabet (Unicode U+10450\u2013U+1047F)",
       gTall: "Tall letters (voiceless consonants)",
       gDeep: "Deep letters (voiced consonants)",
@@ -72,8 +73,8 @@
       kHomophones: "Homophones",
       kDefault: "default",
       kVariant: "variant",
-      phEn: "Type English here\u2026",
-      phSh: "Type Shavian here\u2026"
+      phEn: "Type English here\u2026 (up to 2000 words)",
+      phSh: "Type Shavian here\u2026 (up to 2000 words)"
     },
 
     "zh-Hans": {
@@ -98,6 +99,7 @@
       langLabel: "界面语言",
       warnOov: "以下词不在 CMUdict 中，按字母—读音规则推测：",
       warnSeg: "以下萧伯纳词无法整词匹配，按切分 / 推拼处理：",
+      warnLimit: "已超过 2000 词上限，仅转换前 2000 词。",
       chartTitle: "字母表（Unicode U+10450–U+1047F）",
       gTall: "高字母（清辅音）",
       gDeep: "深字母（浊辅音）",
@@ -119,8 +121,8 @@
       kHomophones: "同音异形词",
       kDefault: "默认读音",
       kVariant: "异读",
-      phEn: "在此输入英语……",
-      phSh: "在此输入萧伯纳字母……"
+      phEn: "在此输入英语……（最多 2000 词）",
+      phSh: "在此输入萧伯纳字母……（最多 2000 词）"
     },
 
     "zh-Hant": {
@@ -145,6 +147,7 @@
       langLabel: "介面語言",
       warnOov: "以下詞不在 CMUdict 中，按字母—讀音規則推測：",
       warnSeg: "以下蕭伯納詞無法整詞匹配，按切分 / 推拼處理：",
+      warnLimit: "已超過 2000 詞上限，僅轉換前 2000 詞。",
       chartTitle: "字母表（Unicode U+10450–U+1047F）",
       gTall: "高字母（清輔音）",
       gDeep: "深字母（濁輔音）",
@@ -166,8 +169,8 @@
       kHomophones: "同音異形詞",
       kDefault: "預設讀音",
       kVariant: "異讀",
-      phEn: "在此輸入英語……",
-      phSh: "在此輸入蕭伯納字母……"
+      phEn: "在此輸入英語……（最多 2000 詞）",
+      phSh: "在此輸入蕭伯納字母……（最多 2000 詞）"
     },
 
     ja: {
@@ -192,6 +195,7 @@
       langLabel: "表示言語",
       warnOov: "CMUdict にない語（文字—音素規則で推定）：",
       warnSeg: "単語全体では一致せず、分割 / 再綴りした語：",
+      warnLimit: "2000語の上限を超えました。先頭の2000語のみ変換します。",
       chartTitle: "字母表（Unicode U+10450–U+1047F）",
       gTall: "長い文字（無声子音）",
       gDeep: "下へ長い文字（有声子音）",
@@ -213,8 +217,8 @@
       kHomophones: "同綴り同音の別語",
       kDefault: "標準の発音",
       kVariant: "別発音",
-      phEn: "ここに英語を入力…",
-      phSh: "ここにショー文字を入力…"
+      phEn: "ここに英語を入力…（最大2000語）",
+      phSh: "ここにショー文字を入力…（最大2000語）"
     },
 
     fr: {
@@ -239,6 +243,7 @@
       langLabel: "Langue",
       warnOov: "Absents de CMUdict — déduits par les règles lettre/son : ",
       warnSeg: "Sans correspondance directe — segmentés / réorthographiés : ",
+      warnLimit: "Limite de 2 000 mots dépassée — seuls les 2 000 premiers mots sont convertis.",
       chartTitle: "Alphabet (Unicode U+10450–U+1047F)",
       gTall: "Lettres hautes (consonnes sourdes)",
       gDeep: "Lettres basses (consonnes sonores)",
@@ -260,8 +265,8 @@
       kHomophones: "Homophones",
       kDefault: "prononciation par défaut",
       kVariant: "variante",
-      phEn: "Saisissez l'anglais ici…",
-      phSh: "Saisissez le shavien ici…"
+      phEn: "Saisissez l'anglais ici… (2 000 mots max)",
+      phSh: "Saisissez le shavien ici… (2 000 mots max)"
     },
 
     es: {
@@ -286,6 +291,7 @@
       langLabel: "Idioma",
       warnOov: "No están en CMUdict — estimados por reglas letra-sonido: ",
       warnSeg: "Sin coincidencia de palabra completa — segmentados / reescritos: ",
+      warnLimit: "Se superó el límite de 2000 palabras — solo se convierten las primeras 2000.",
       chartTitle: "Alfabeto (Unicode U+10450–U+1047F)",
       gTall: "Letras altas (consonantes sordas)",
       gDeep: "Letras profundas (consonantes sonoras)",
@@ -307,8 +313,8 @@
       kHomophones: "Homófonos",
       kDefault: "pronunciación predeterminada",
       kVariant: "variante",
-      phEn: "Escribe inglés aquí…",
-      phSh: "Escribe shaviano aquí…"
+      phEn: "Escribe inglés aquí… (máx. 2000 palabras)",
+      phSh: "Escribe shaviano aquí… (máx. 2000 palabras)"
     },
 
     de: {
@@ -333,6 +339,7 @@
       langLabel: "Sprache",
       warnOov: "Nicht in CMUdict – über Buchstaben-Laut-Regeln erschlossen: ",
       warnSeg: "Keine Ganzworttreffer – segmentiert / neu buchstabiert: ",
+      warnLimit: "Limit von 2000 Wörtern überschritten – nur die ersten 2000 werden umgewandelt.",
       chartTitle: "Alphabet (Unicode U+10450–U+1047F)",
       gTall: "Hohe Buchstaben (stimmlose Konsonanten)",
       gDeep: "Tiefe Buchstaben (stimmhafte Konsonanten)",
@@ -354,8 +361,8 @@
       kHomophones: "Homophone",
       kDefault: "Standardaussprache",
       kVariant: "Variante",
-      phEn: "Hier Englisch eingeben …",
-      phSh: "Hier Shaw eingeben …"
+      phEn: "Hier Englisch eingeben … (max. 2000 Wörter)",
+      phSh: "Hier Shaw eingeben … (max. 2000 Wörter)"
     },
 
     it: {
@@ -380,6 +387,7 @@
       langLabel: "Lingua",
       warnOov: "Non nel CMUdict — ricostruiti con regole lettera-suono: ",
       warnSeg: "Nessuna corrispondenza per parola intera — segmentati / rifusi: ",
+      warnLimit: "Superato il limite di 2000 parole — vengono convertite solo le prime 2000.",
       chartTitle: "Alfabeto (Unicode U+10450–U+1047F)",
       gTall: "Lettere alte (consonanti sorde)",
       gDeep: "Lettere profonde (consonanti sonore)",
@@ -401,8 +409,8 @@
       kHomophones: "Omofoni",
       kDefault: "pronuncia predefinita",
       kVariant: "variante",
-      phEn: "Scrivi qui l'inglese…",
-      phSh: "Scrivi qui lo shaviano…"
+      phEn: "Scrivi qui l'inglese… (max 2000 parole)",
+      phSh: "Scrivi qui lo shaviano… (max 2000 parole)"
     }
   };
 

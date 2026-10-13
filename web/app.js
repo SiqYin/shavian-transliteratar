@@ -12,7 +12,39 @@
 
   var $ = function (id) { return document.getElementById(id); };
   var inputEl = $("input"), outputEl = $("output"), ipaEl = $("ipaLine"),
-      warnEl = $("warnLine"), detailEl = $("detail"), detailBody = $("detailBody");
+      warnEl = $("warnLine"), limitEl = $("limitLine"),
+      detailEl = $("detail"), detailBody = $("detailBody");
+
+  /* Conversion cap: anything past MAX_WORDS is left untranslated, the same
+   * way lyric / poem pastes used to stall the whole page. */
+  var MAX_WORDS = 2000;
+  var WORD_COUNT_RE = /[A-Za-z0-9\u00C0-\u024F\u{10450}-\u{1047F}]+(?:['’\u2019-][A-Za-z0-9\u00C0-\u024F\u{10450}-\u{1047F}]+)*/gu;
+
+  function countWords(text) {
+    var m = text.match(WORD_COUNT_RE);
+    return m ? m.length : 0;
+  }
+
+  function truncateToWords(text, max) {
+    var re = new RegExp(WORD_COUNT_RE.source, "gu");
+    var m, count = 0;
+    while ((m = re.exec(text)) !== null) {
+      count++;
+      if (count === max) { return text.slice(0, m.index + m[0].length); }
+    }
+    return text;
+  }
+
+  /* Shared by both directions: cut overlong input and surface the cap. */
+  function applyLimit(text) {
+    limitEl.hidden = true;
+    if (countWords(text) > MAX_WORDS) {
+      limitEl.hidden = false;
+      limitEl.textContent = t("warnLimit");
+      return truncateToWords(text, MAX_WORDS);
+    }
+    return text;
+  }
 
   function fwdOpts() {
     return {
@@ -57,8 +89,10 @@
     if (!text.trim()) {
       ipaEl.hidden = true;
       warnEl.hidden = true;
+      limitEl.hidden = true;
       return;
     }
+    text = applyLimit(text);
     var res = S.textToShavian(text, fwdOpts());
     pairTokens(res.shavian, res.words).forEach(function (pair) {
       if (!pair.word) { outputEl.appendChild(document.createTextNode(pair.text)); return; }
@@ -155,7 +189,8 @@
     detailEl.hidden = true;
     ipaEl.hidden = true;
     selectedToken = null;
-    if (!text.trim()) { warnEl.hidden = true; return; }
+    if (!text.trim()) { warnEl.hidden = true; limitEl.hidden = true; return; }
+    text = applyLimit(text);
     var res = S.shavianToEnglish(text, {});
     pairTokens(res.english, res.words).forEach(function (pair) {
       if (!pair.word) { outputEl.appendChild(document.createTextNode(pair.text)); return; }

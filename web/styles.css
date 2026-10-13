@@ -229,8 +229,13 @@ textarea:focus-visible {
 /* ------------------------------------------------------------- output */
 .output {
   min-height: 64px;
-  font-size: clamp(1.35rem, 4.6vw, 1.7rem);
-  line-height: 1.8;
+  /* same size as the input textarea so letters can be matched one to one;
+   * Noto Sans Shavian glyphs already run visually larger than Latin at
+   * equal px */
+  font-size: clamp(1rem, 2.8vw, 1.05rem);
+  line-height: 1.55;
+  /* keep the input's line / stanza breaks visible */
+  white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
 .output .w {
@@ -256,6 +261,15 @@ textarea:focus-visible {
   border-top: 1px dashed var(--line);
   font-size: clamp(0.95rem, 2.6vw, 1.02rem);
   color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.limit-line {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+  border-radius: 6px;
+  padding: 6px 10px;
   overflow-wrap: anywhere;
 }
 .warn-line {

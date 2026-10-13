@@ -743,7 +743,7 @@
   }
 
   function matchRight(ctx, right) {
-    if (ctx === " ") { return right.length === 0; }
+    if (ctx === " " || ctx === "$") { return right.length === 0; }
     if (ctx === "#") { for (var i = 0; i < right.length; i++) { if (!isVowelLetter(right[i])) { return false; } } return right.length > 0; }
     if (ctx === ":") { return true; }
     if (ctx === "^") { return right.length > 0 && isConsLetter(right[0]); }
@@ -752,7 +752,22 @@
     if (ctx === "%") {
       return /^(e|es|ed|er|ing|ely|ies|y)/.test(right);
     }
-    return false;
+    // literal next letters, e.g. "ough" + "t" ("thought", "bought")
+    return right.length > 0 && right.indexOf(ctx) === 0;
+  }
+
+  // letters with no matching rule get their most typical value; far better
+  // than collapsing everything onto one consonant
+  var LTS_CONS_DEFAULT = {
+    b: "B", c: "K", d: "D", f: "F", g: "G", h: "HH", j: "JH", k: "K",
+    l: "L", m: "M", n: "N", p: "P", q: "K", r: "R", s: "S", t: "T",
+    v: "V", w: "W", y: "Y", z: "Z"
+  };
+
+  // LTS table phones carry an optional trailing stress digit ("AH0")
+  function pushLtsPhone(phones, phStr) {
+    var sm = /(\d)$/.exec(phStr);
+    phones.push({ p: sm ? phStr.slice(0, -1) : phStr, s: sm ? parseInt(sm[1], 10) : 0 });
   }
 
   function lts(word) {
@@ -771,13 +786,18 @@
       }
       if (matched) {
         for (var q = 0; q < matched[3].length; q++) {
-          phones.push({ p: matched[3][q], s: parseInt(matched[3][q].slice(1), 10) || 0 });
+          pushLtsPhone(phones, matched[3][q]);
         }
         i += matched[1].length;
       } else {
         var ch = w[i];
-        var ph = "a e i o u y".indexOf(ch) >= 0 ? "AH0" : (/[bcdfghjklmnpqrstvwxz]/.test(ch) ? "T" : null);
-        if (ph) { phones.push({ p: ph, s: 0 }); }
+        if ("a e i o u y".indexOf(ch) >= 0) {
+          phones.push({ p: "AH", s: 0 });
+        } else if (ch === "x") {
+          phones.push({ p: "K", s: 0 }, { p: "S", s: 0 });
+        } else if (LTS_CONS_DEFAULT[ch]) {
+          phones.push({ p: LTS_CONS_DEFAULT[ch], s: 0 });
+        }
         i += 1;
       }
     }
